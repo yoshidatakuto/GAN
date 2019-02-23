@@ -19,7 +19,8 @@ import numpy as np
 class DCGAN():
     
     def __init__(self):
-        self.path = "/volumes/data/dataset/gan/MNIST/dcgan/dcgan_generated_images/"
+        #self.path = "/volumes/data/dataset/gan/MNIST/dcgan/dcgan_generated_images/"
+        self.path = "images/generated_images"
         #mnistデータ用の入力データサイズ
         self.img_rows = 28 
         self.img_cols = 28
